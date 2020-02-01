@@ -142,7 +142,7 @@ class _SouthwestSession():
         tempheaders.pop('content-type')
         tempheaders.pop('accept')
         tempheaders.pop('x-requested-with')
-        tempheaders.pop('cookie')
+        #tempheaders.pop('cookie')
         tempheaders.pop('referer')
         return tempheaders
 
